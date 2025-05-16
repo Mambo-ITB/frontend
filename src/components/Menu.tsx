@@ -23,7 +23,7 @@ const menuItems = [
         visible: ["sekolah"],
       },
       {
-        icon: "/home.png",
+        icon: "/home.svg",
         label: "Home",
         href: "/vendor",
         visible: ["vendor"],
@@ -101,9 +101,15 @@ const menuItems = [
 
       // For: Vendor
       {
-        icon: "/teacher.png",
+        icon: "/delivery.svg",
         label: "Status Pengiriman",
         href: "/vendor/pengiriman",
+        visible: ["vendor"],
+      },
+      {
+        icon: "/delivery.svg",
+        label: "Status Pembayaran",
+        href: "/vendor/pembayaran",
         visible: ["vendor"],
       },
 

@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Announcements from "@/components/Announcements";
 import VendorStats from "@/components/VendorStats";
-import VendorTracking from "@/components/VendorTracking";
+import VendorOrder from "@/components/VendorOrder";
 import MenuList from "@/components/MenuList";
 import { deliveryData } from "@/lib/dataPengiriman";
 import Table from "@/components/Table";
@@ -198,7 +198,7 @@ const VendorPage = () => {
             {/* RIGHT */}
             <div className="w-full xl:w-1/3 flex flex-col gap-4">
                 <div className="bg-white p-4 rounded-md">
-                    <VendorTracking />
+                    <VendorOrder />
                 </div>
                 <div className="bg-white p-4 rounded-md">
                     <MenuList />

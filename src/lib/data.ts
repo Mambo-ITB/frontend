@@ -2,6 +2,18 @@
 
 export let role = "vendor";
 
+export const ordersData = [
+  {
+    id: 1,
+    tanggal: "24/2/2025",
+    no_order: "12345",
+    paket: "Paket A",
+    sekolah: "SMPN 1 Kota Bandung",
+    jumlah_kirim: 550,
+    waktu_kirim: "11.00"
+  }
+]
+
 export const accountsData = [
   {
     id: 1,
